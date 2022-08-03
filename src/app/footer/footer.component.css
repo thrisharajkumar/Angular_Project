@@ -1,4 +1,11 @@
 .row>.col-lg-4
 {
     margin-top: 10px;
+    
+    
+}
+
+.container {
+    padding: 10px;
+    text-align: center;
 }

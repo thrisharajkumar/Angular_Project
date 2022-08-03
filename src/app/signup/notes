@@ -1,0 +1,15 @@
+<!--Validators are rules which an input control has to follow. 
+    If the input doesn’t match the rule then the control is said to be invalid.
+Angular comes with the small set of prebuilt validators to match the ones we can 
+define via standard HTML 5 attributes, namely required, minlength, maxlength and 
+pattern which we can access from the Validators class in @angular/forms library.
+STEP 1:ng g c signup
+STEP 2:app.module.ts->import { ReactiveFormsModule } from '@angular/forms';
+STEP 3:signup.component.ts ->import { Validators } from '@angular/forms';-->
+
+<!---->
+<!--Bootstrap provides a different way to show an error message to the user.
+
+By using Alert component of bootstrap
+By using visual feedback for the form controls when they are invalid.-->
+<!--Validation-->

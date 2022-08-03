@@ -10,51 +10,51 @@ export class AngularServiceService {
   [
     {
       id:100,
-      name:"Peter",
+      name:"Sana",
       designation:"Developer",
-      phone:"569348783",
+      phone:"9410238732",
     },
     {
       id:101,
-      name:"John",
+      name:"Dev",
       designation:"Designer",
-      phone:"569343783"
+      phone:"5642319032"
     },
     {
       id:102,
-      name:"Paul",
+      name:"Sam",
       designation:"Developer",
-      phone:"432348783"
+      phone:"7650930276"
     },
     {
       id:103,
-      name:"Jancy",
+      name:"Nancy",
       designation:"Developer",
-      phone:"569348783",
+      phone:"8093642782",
     },
     {
       id:104,
-      name:"Jamie",
+      name:"Cassie",
       designation:"Designer",
-      phone:"569343783"
+      phone:"6749202000"
     },
     {
       id:105,
-      name:"Amy",
+      name:"Nora",
       designation:"Developer",
-      phone:"432348783"
+      phone:"5336281001"
     },
     {
       id:106,
-      name:"Shaun",
+      name:"Shawn",
       designation:"Designer",
-      phone:"569343783"
+      phone:"9847281909"
     },
     {
       id:107,
-      name:"Arnold",
+      name:"Aaron",
       designation:"Developer",
-      phone:"432348783"
+      phone:"4721104739"
     }
   ]
 

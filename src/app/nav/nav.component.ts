@@ -11,11 +11,11 @@ export class NavComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  courseSelected:string= ''; //Angular
+  courseSelected:string= ''; 
  
   AddCourse(courseId: string): void {
     if (!courseId) { return; }
-    this.courseSelected = courseId; //Angular
-    console.log(courseId) //Angular
+    this.courseSelected = courseId; 
+    console.log(courseId) 
   }
 }
