@@ -11,7 +11,9 @@ describe('ReactCourseComponent', () => {
       declarations: [ ReactCourseComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(ReactCourseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

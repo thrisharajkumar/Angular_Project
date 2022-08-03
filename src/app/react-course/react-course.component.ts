@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Angular } from '../angular';
+import { ReactServiceService } from '../react-service.service';
 @Component({
   selector: 'app-react-course',
   templateUrl: './react-course.component.html',
@@ -7,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReactCourseComponent implements OnInit {
 
-  constructor() { }
+  angularcourse:Angular[]=[];
+
+  constructor(private angularservice:ReactServiceService) { }
 
   ngOnInit(): void {
+    const angularObservable=this.angularservice.getdetails();
+    angularObservable.subscribe((details:Angular[])=>{
+      this.angularcourse=details;
+    })
+
   }
 
 }

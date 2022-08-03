@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,Input} from '@angular/core';
 
 @Component({
   selector: 'app-search',
@@ -11,5 +11,14 @@ export class SearchComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  _name: any | undefined; //Angular
+ 
+  @Input('course') //Angular
+  set name(name: any) {
+    this._name = name || 'Course not found';
+    console.log(name)//Angular
+  }
+ 
+  get name(): string { return this._name; }
 
 }

@@ -11,7 +11,9 @@ describe('SignupComponent', () => {
       declarations: [ SignupComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(SignupComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -21,3 +23,4 @@ describe('SignupComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+

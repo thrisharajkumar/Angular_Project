@@ -11,7 +11,9 @@ describe('AngularCourseComponent', () => {
       declarations: [ AngularCourseComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(AngularCourseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
